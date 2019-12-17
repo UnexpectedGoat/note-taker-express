@@ -1,11 +1,12 @@
-var express = require("express");
+const express = require("express");
 
-var app = express();
+const app = express();
 
-var PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.static('public'));
 
 require("./routes/api-routes")(app);
 require("./routes/html-routes")(app);
