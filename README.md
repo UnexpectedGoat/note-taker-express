@@ -3,6 +3,7 @@ Week 11 Express Homework - Note Taker
 The note taker is an application which enables users to write, save and delete notes.
 
 Deployed app: https://jennyunchan-notetaker.herokuapp.com/
+(works on localhost:3000 when connected via node but doesn't seem to work when deployed on heroku)
 
 
 Homework criteria:
